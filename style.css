@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --green: #1B6B25;
+    --pink: #B51963;
+    --guava: #C41F1B;
+    --brown: #efe8b4;
+}
+
+body {
+    background-color: var(--brown);
+    color: var(--green);
+}
+
+nav {
+    background-color: var(--pink);
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15vw;
+}
+
+a {
+    color: var(--brown);
+    font-size: 30px;
+    text-transform: uppercase;
+}
