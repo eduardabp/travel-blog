@@ -42,6 +42,7 @@ header {
     justify-content: center;
     flex-direction: column;
     font-family: Arvo, sans-serif;
+    text-align: center;
 }
 
 header::before {
