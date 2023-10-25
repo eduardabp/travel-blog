@@ -41,6 +41,7 @@ header {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    font-family: Arvo, sans-serif;
 }
 
 header::before {
@@ -75,6 +76,8 @@ main {
     grid-template-columns: repeat(12, 1fr);
     gap: 10%;
     margin: 7vw;
+    font-family: Quicksand;
+    font-weight: 500;
 }
 
 section {
@@ -93,6 +96,38 @@ article {
 
 h3 {
     font-size: 35px;
+    font-family: Arvo, sans-serif;
+}
+
+ul {
+    list-style-image: url('images/closed-umbrella.png');
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.description-cities {
+    display: none;
+}
+
+img {
+    width: 100%;
+}
+
+.city:hover + .description-cities {
+    display:block;
+}
+
+.description-cities:hover {
+    display: block;
+}
+
+.city:focus + .description-cities {
+    display:block;
+}
+
+.description-cities:focus {
+    display: block;
 }
 
 aside {
@@ -106,6 +141,7 @@ aside {
     border-radius: 25px;
     padding: 2vw;
     height: fit-content;
+    font-weight: 400;
 }
 
 figure {
@@ -119,6 +155,7 @@ aside img {
 
 h4 {
     font-size: 25px;
+    font-family: Arvo, sans-serif;
 }
 
 footer {
