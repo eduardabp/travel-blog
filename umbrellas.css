@@ -79,6 +79,8 @@ main {
     grid-template-rows: repeat(9, 30vw);
     grid-gap: 15px;
     margin: 10vw;
+    font-family: Quicksand;
+    font-weight: 700;
 }
 
 main img {
@@ -87,8 +89,41 @@ main img {
     object-fit: cover;
 }
 
-main img:hover {
-    opacity: 0.5;
+figure {
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+figure img {
+    position: absolute;
+}
+
+figcaption {
+    position: absolute;
+    color: var(--pink);
+    display: none;
+    font-size: 25px;
+}
+
+
+figure img:hover {
+    opacity: 0.2;
+    transition: 0.8s ease-out;
+}
+
+figure img:hover + figcaption {
+    display: block;
+}
+
+figure img:focus {
+    opacity: 0.2;
+    transition: 0.8s ease-out;
+}
+
+figure img:focus + figcaption {
+    display: block;
 }
 
 
