@@ -30,6 +30,13 @@ For this challenge, I used the following tools:
 ##### &emsp; 🎯 READABLE WEBPAGE WITH 200% ZOOM IN
 ##### &emsp; 🎯 ACHIEVED SCORE 0 ON AXE DEVTOOLS (except for Google Maps on Contact Page)
 
+
+### IMPROVEMENTS TO BE MADE
+
+##### &emsp; 💡 RESIZE OF IMAGES ON ZOOM IN
+##### &emsp; 💡 FIX A PADDING BUG THAT HAPPENS IN CHROME ON MOBILE MODE (but not on other browsers)
+##### &emsp; 💡 USE ANOTHER MAP ON CONTACT PAGE (Google Maps flag 36 errors on Axe DevTools)
+
 &nbsp;  
 &nbsp;  
 
