@@ -34,7 +34,6 @@ For this challenge, I used the following tools:
 ### IMPROVEMENTS TO BE MADE
 
 ##### &emsp; 💡 RESIZE OF IMAGES ON ZOOM IN
-##### &emsp; 💡 FIX A PADDING BUG THAT HAPPENS IN CHROME ON MOBILE MODE (but not on other browsers)
 ##### &emsp; 💡 USE ANOTHER MAP ON CONTACT PAGE (Google Maps flag 36 errors on Axe DevTools)
 
 &nbsp;  
