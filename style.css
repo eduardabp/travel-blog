@@ -1,13 +1,15 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+
 
 :root {
     --green: #1B6B25;
     --pink: #B51963;
     --guava: #C41F1B;
-    --brown: #fcfcfc;
+    --brown: #efe8b4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
 body {
