@@ -25,6 +25,7 @@ nav {
     align-items: center;
     padding-right: 15vw;
     z-index: 3;
+    font-family: "Noto Serif";
 }
 
 a {
@@ -132,4 +133,5 @@ footer {
     font-size: 16px;
     padding: 5px;
     text-align: center;
+    font-family: "Noto Serif";
 }
