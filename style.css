@@ -105,31 +105,12 @@ ul {
     list-style-image: url('images/closed-umbrella.png');
     display: flex;
     flex-direction: column;
-    gap: 2vw;
+    gap: 5vw;
 }
 
-.description-cities {
-    display: none;
-}
-
-img {
+li img {
     width: 100%;
-}
-
-.city:hover + .description-cities {
-    display:block;
-}
-
-.description-cities:hover {
-    display: block;
-}
-
-.city:focus + .description-cities {
-    display:block;
-}
-
-.description-cities:focus {
-    display: block;
+    margin: 2vw auto;
 }
 
 aside {
